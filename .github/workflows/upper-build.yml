@@ -9,7 +9,9 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    # runs-on: macos-latest
+    # runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - run: pwd && ls -la
       - uses: actions/checkout@v4
