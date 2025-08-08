@@ -9,8 +9,8 @@ on:
 
 jobs:
   cross:
-    # permissions:
-    #   contents: write
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     defaults:
       run:
